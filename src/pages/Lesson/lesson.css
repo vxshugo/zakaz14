@@ -1,0 +1,33 @@
+.lesson .head {
+  background-image: url("https://media.discordapp.net/attachments/1050812814555615282/1104827965549858907/Rectangle_2.png?width=1200&height=210");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.lesson .head h4 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+}
+.lesson .docView {
+  display: flex;
+  justify-content: center;
+}
+.lesson .docView .wrapper {
+  max-width: 1200px;
+}
+.lesson .docView .wrapper .my-doc-viewer-style {
+  width: 1200px;
+}
+
+@media screen and (max-width: 768px) {
+  .lesson .docView .wrapper .my-doc-viewer-style {
+    width: 100%;
+  }
+}
