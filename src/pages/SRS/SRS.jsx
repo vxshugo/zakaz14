@@ -21,7 +21,7 @@ const SRS = () => {
         <div className='lesson'>
             <Navbar />
             <div className="head">
-                <h4>СРС</h4>
+                <h4>СӨЖ</h4>
             </div>
             {/* <div className="docView">
                 <div className="wrapper">

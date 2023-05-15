@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer"
 const Test = () => {
 
     const docs = [
-        { uri: require("./Экз.сурактар.pdf") }, // Local File
+        { uri: require("./3к-тест-Дизайн теориясы мен тарихы-50 (1).pdf") }, // Local File
     ];
 
     const [activeDocument, setActiveDocument] = useState(docs[0]);
@@ -23,11 +23,11 @@ const Test = () => {
             <div className="head">
                 <h4>Емтихан сұрақтары</h4>
             </div>
-            {/* <div className="docView">
+            <div className="docView">
                 <div className="wrapper">
                     <DocViewer className='my-doc-viewer-style' documents={docs} activeDocument={activeDocument} pluginRenderers={DocViewerRenderers} onDocumentChange={handleDocumentChange} />
                 </div>
-            </div> */}
+            </div>
             <Footer />
         </div>
     )

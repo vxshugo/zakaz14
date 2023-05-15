@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainPage from './pages/Main/MainPage';
 import SecondPage from './pages/ProjectPage/SecondPage';
 import Practice from './pages/Practice/Practice';
@@ -12,16 +12,19 @@ function App() {
   return (
     <div className="App">
       <Router>
-                <Routes>
-                    <Route exact path="/" element={<MainPage/>}/>
-                    <Route exact path="/razdel/test" element={<SecondPage/>}/>
-                    <Route exact path="/razdel/praktika" element={<Practice/>}/>
-                    <Route exact path="/razdel/lesson" element={<Lesson/>}/>
-                    <Route exact path="/razdel/rk" element={<RK/>}/>
-                    <Route exact path="/razdel/srs" element={<SRS/>}/>
-                    <Route exact path="/razdel/mainTest" element={<Test/>}/>
-                </Routes>    
+        <Routes>
+          <Route exact path="/" element={<MainPage />} />
+          <Route exact path="/razdel/test" element={<SecondPage />} />
+          <Route exact path="/razdel/praktika" element={<Practice />} />
+          <Route exact path="/razdel/lesson" element={<Lesson />} />
+          <Route exact path="/razdel/rk" element={<RK />} />
+          <Route exact path="/razdel/srs" element={<SRS />} />
+          <Route exact path="/razdel/mainTest" element={<Test />} />
+        </Routes>
       </Router>
+      <div className="theme">
+        <div className='gradient' />
+      </div>
     </div>
   );
 }

@@ -9,6 +9,10 @@ const Lesson = () => {
 
     const docs = [
         { uri: require("./lesson2.pdf") }, // Local File
+        { uri: require("./3-Ежелгі Мысыр, Антикалық дәуір, Греция, Рим.pdf") }, // Local File
+        { uri: require("./8-АҚШ дизайнерлерінің өндірістік қалыптасуы.pdf") }, // Local File
+        { uri: require("./10-БАУХАУС және ВХУТЕМАС.pdf") }, // Local File
+        { uri: require("./2-Дизайнерлік қызметтің анықтамасы. Дизайнердің мәдениеттік сөздігі.pdf") }, // Local File
     ];
 
     const [activeDocument, setActiveDocument] = useState(docs[0]);

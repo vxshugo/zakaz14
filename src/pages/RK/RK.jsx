@@ -21,13 +21,13 @@ const RP = () => {
         <div className='lesson'>
             <Navbar />
             <div className="head">
-                <h4>РК</h4>
+                <h4>Аралық бақылау</h4>
             </div>
-            {/* <div className="docView">
+            <div className="docView">
                 <div className="wrapper">
                     <DocViewer className='my-doc-viewer-style' documents={docs} activeDocument={activeDocument} pluginRenderers={DocViewerRenderers} onDocumentChange={handleDocumentChange} />
                 </div>
-            </div> */}
+            </div>
             <Footer />
         </div>
     )
