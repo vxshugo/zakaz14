@@ -12,9 +12,6 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <a href="http://5.104.236.70/" className="navbar-logo">
-                    <img src="https://media.discordapp.net/attachments/1050812814555615282/1102700614523289620/image_5.png" alt="" />
-                </a>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={open ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
@@ -22,6 +19,36 @@ const Navbar = () => {
                     <li className="nav-item">
                         <a href="/" className="nav-link">
                             Басты бет
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="/razdel/test" className="nav-link">
+                            Тест
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="/razdel/praktika" className="nav-link">
+                            Презентациялар
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="/razdel/lesson" className="nav-link">
+                            Лекция
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="/razdel/srs" className="nav-link">
+                            СӨЖ
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="/razdel/rp" className="nav-link">
+                            Аралық бақылау
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="/razdel/mainTest" className="nav-link">
+                            Емтихан сұрақтары
                         </a>
                     </li>
                 </ul>
