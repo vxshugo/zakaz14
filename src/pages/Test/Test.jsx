@@ -21,6 +21,7 @@ const Test = () => {
 
     return (
         <div className='lesson'>
+            <Navbar />
             <div className="head">
                 <h4>Емтихан сұрақтары</h4>
                 <iframe src="https://www.youtube.com/embed/KmbvuKpWoXY" title="YouTube video player" frameBorder="0"

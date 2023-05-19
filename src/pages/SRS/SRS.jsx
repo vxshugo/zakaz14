@@ -22,6 +22,7 @@ const SRS = () => {
 
     return (
         <div className='lesson'>
+            <Navbar/>
             <div className="head">
                 <h4>СӨЖ</h4>
                 <iframe src="https://www.youtube.com/embed/DBBOk34kj_0" title="YouTube video player" frameBorder="0"

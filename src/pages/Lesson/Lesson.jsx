@@ -35,6 +35,7 @@ const Lesson = () => {
 
 
     return (<div className='lesson'>
+        <Navbar/>
         <div className="head">
             <h4>Лекция</h4>
             <iframe src="https://www.youtube.com/embed/g39sNTBM9eM" title="YouTube video player" frameBorder="0"

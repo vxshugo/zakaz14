@@ -20,6 +20,7 @@ const RP = () => {
 
     return (
         <div className='lesson'>
+            <Navbar />
             <div className="head">
                 <h4>Аралық бақылау</h4>
                 <iframe src="https://www.youtube.com/embed/H9yXx9F9Lrs" title="YouTube video player" frameBorder="0"

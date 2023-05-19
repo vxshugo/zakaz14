@@ -21,6 +21,7 @@ const SecondPage = () => {
 
   return (
     <div className='testPage'>
+      <Navbar />
       <div className="head">
         <h4>Тест</h4>
         <iframe src="https://www.youtube.com/embed/9lljsR78-is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
