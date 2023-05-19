@@ -1,0 +1,15 @@
+.Question ul{
+    list-style: none;
+    cursor: pointer;
+}
+.Question{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Question h1{
+    padding-bottom: 20px;
+}
+.Question ul li:hover{
+    color: aliceblue
+}

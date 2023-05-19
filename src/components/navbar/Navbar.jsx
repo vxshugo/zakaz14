@@ -42,7 +42,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="/razdel/rp" className="nav-link">
+                        <a href="/razdel/rk" className="nav-link">
                             Аралық бақылау
                         </a>
                     </li>

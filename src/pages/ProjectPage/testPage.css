@@ -1,14 +1,15 @@
 .testPage .head {
-  background-image: url("https://media.discordapp.net/attachments/1050812814555615282/1104827965549858907/Rectangle_2.png?width=1200&height=210");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
   padding-top: 170px;
   padding-bottom: 170px;
+  min-width: 500px;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+.testPage .head iframe{
+  width: 540px;
+  height: 315px;
 }
 .testPage .head h4 {
   font-size: 32px;
@@ -18,16 +19,21 @@
 .testPage .docView {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
 }
-.testPage .docView .wrapper {
-  max-width: 1200px;
-}
-.testPage .docView .wrapper .my-doc-viewer-style{
-  width: 1200px;
+.testPage .docView .wrapper{
+  max-width: 1120px;
 }
 
 @media screen and (max-width: 768px) {
   .testPage .docView .wrapper .my-doc-viewer-style {
+    width: 100%;
+  }
+  .testPage .head{
+    flex-direction: column;
+  }
+  .testPage .head iframe{
     width: 100%;
   }
 }

@@ -8,13 +8,31 @@ import Footer from "../../components/Footer/Footer"
 const Practice = () => {
 
     const docs = [
-        { uri: require("./5-Батыс-Еуропаның-модерні-әмбебап-синтетикалық-стиль..pdf") }, // Local File
-        { uri: require("./8-АҚШ-соңғы-жылдардағы-дизайн.pdf") }, // Local File
+        {
+            uri: require("./5-Батыс-Еуропаның-модерні-әмбебап-синтетикалық-стиль..pdf"),
+            fileName: " "
+        }, // Local File
+        {
+            uri: require("./8-АҚШ-соңғы-жылдардағы-дизайн.pdf"),
+            fileName: " "
+        }, // Local File
         { uri: require("./13-Италяндық-Автомобиль-дизайны.pdf") }, // Local File
-        { uri: require("./Ақш-тағы-қазіргі-уақыттағы-атақты-үздік-дизайнерлер..pdf") }, // Local File
-        { uri: require("./Альберх-Дюрер-Апокалипсис.pdf") }, // Local File
-        { uri: require("./Голландтық-натюрморт-_1_.pdf") }, // Local File
-        { uri: require("./Ең танымал итальяндық дизайнерлер.pdf") }, // Local File
+        {
+            uri: require("./Ақш-тағы-қазіргі-уақыттағы-атақты-үздік-дизайнерлер..pdf"),
+            fileName: " "
+        }, // Local File
+        {
+            uri: require("./Альберх-Дюрер-Апокалипсис.pdf"),
+            fileName: " "
+        }, // Local File
+        {
+            uri: require("./Голландтық-натюрморт-_1_.pdf"),
+            fileName: " "
+        }, // Local File
+        {
+            uri: require("./Ең танымал итальяндық дизайнерлер.pdf"),
+            fileName: " "
+        }, // Local File
     ];
 
     const [activeDocument, setActiveDocument] = useState(docs[0]);
@@ -29,6 +47,9 @@ const Practice = () => {
             <Navbar />
             <div className="head">
                 <h4>Презентациялар</h4>
+                <iframe src="https://www.youtube.com/embed/cLOOPfl5VTM" title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen></iframe>
             </div>
             <div className="docView">
                 <div className="wrapper">

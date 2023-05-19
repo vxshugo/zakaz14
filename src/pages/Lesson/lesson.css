@@ -1,19 +1,20 @@
 .lesson .head {
-  background-image: url("https://media.discordapp.net/attachments/1050812814555615282/1104827965549858907/Rectangle_2.png?width=1200&height=210");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
   padding-top: 170px;
   padding-bottom: 170px;
+  min-width: 500px;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .lesson .head h4 {
   font-size: 32px;
   font-weight: 600;
   color: #fff;
+}
+.lesson .head iframe{
+  width: 540px;
+  height: 315px;
 }
 .lesson .docView {
   display: flex;
