@@ -7,7 +7,6 @@ import "./mainPage.css"
 const MainPage = () => {
     return (
         <div>
-            <Navbar />
             <Main />
             <div className='Catalog__block'>
                 <h2>Жинақтар</h2>

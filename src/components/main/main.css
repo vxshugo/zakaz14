@@ -46,10 +46,10 @@
   height: 300px;
   width: 100%;
 }
-.main-text {
+.main-text p{
   font-size: 48px;
   font-weight: 900;
-  color: #fff;
+  color: #ffd9d9;
   margin: 1rem 0;
 }
 .main-text-2 {

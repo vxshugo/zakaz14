@@ -44,7 +44,6 @@ const Practice = () => {
 
     return (
         <div className='practice'>
-            <Navbar />
             <div className="head">
                 <h4>Презентациялар</h4>
                 <iframe src="https://www.youtube.com/embed/cLOOPfl5VTM" title="YouTube video player" frameBorder="0"
