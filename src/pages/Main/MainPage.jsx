@@ -33,7 +33,6 @@ const MainPage = () => {
                             allowFullScreen></iframe>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

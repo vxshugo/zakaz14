@@ -53,7 +53,6 @@ const Practice = () => {
                     <DocViewer className='my-doc-viewer-style' documents={docs} activeDocument={activeDocument} pluginRenderers={DocViewerRenderers} onDocumentChange={handleDocumentChange} />
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

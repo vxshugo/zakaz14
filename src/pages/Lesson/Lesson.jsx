@@ -45,7 +45,6 @@ const Lesson = () => {
                            pluginRenderers={DocViewerRenderers} onDocumentChange={handleDocumentChange}/>
             </div>
         </div>
-        <Footer/>
     </div>)
 }
 

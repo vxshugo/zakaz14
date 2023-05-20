@@ -36,7 +36,6 @@ const SecondPage = () => {
           <OnlineTest />
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

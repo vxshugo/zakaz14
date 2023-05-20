@@ -33,7 +33,6 @@ const SRS = () => {
                                pluginRenderers={DocViewerRenderers} onDocumentChange={handleDocumentChange}/>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

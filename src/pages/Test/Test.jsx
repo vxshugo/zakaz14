@@ -30,7 +30,6 @@ const Test = () => {
                     <OnlineTest2/>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }
