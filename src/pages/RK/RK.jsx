@@ -23,9 +23,6 @@ const RP = () => {
             <Navbar />
             <div className="head">
                 <h4>Аралық бақылау</h4>
-                <iframe src="https://www.youtube.com/embed/H9yXx9F9Lrs" title="YouTube video player" frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen></iframe>
             </div>
             <div className="docView">
                 <div className="wrapper">
