@@ -18,3 +18,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.catalog__flex iframe{
+  margin-bottom: 60px;
+}

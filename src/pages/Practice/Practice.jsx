@@ -47,9 +47,6 @@ const Practice = () => {
             <Navbar />
             <div className="head">
                 <h4>Презентациялар</h4>
-                <iframe src="https://www.youtube.com/embed/cLOOPfl5VTM" title="YouTube video player" frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen></iframe>
             </div>
             <div className="docView">
                 <div className="wrapper">

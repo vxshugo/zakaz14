@@ -38,9 +38,6 @@ const Lesson = () => {
         <Navbar/>
         <div className="head">
             <h4>Лекция</h4>
-            <iframe src="https://www.youtube.com/embed/g39sNTBM9eM" title="YouTube video player" frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen></iframe>
         </div>
         <div className="docView">
             <div className="wrapper">
